@@ -9,9 +9,11 @@ package studentlist;
  * @author giancarloespinosa
  */
 public class Student { // model the student raw data 
-    
+
     private String name; // variables private
-    private int sid; // principle "encapsulation"
+    private int sid; // principle "encapsulation
+    private int semester;
+    private float fee;
 
     /**
      * @return the name
@@ -41,4 +43,13 @@ public class Student { // model the student raw data
         this.sid = sid;
     }
     
+    public int getSemester() {
+        return semester;
+    }
+
+    public void setSemester(int semester) {
+        this.semester = semester;
+    }
+    // fetch+merge
+    // this is the part time branch
 }
